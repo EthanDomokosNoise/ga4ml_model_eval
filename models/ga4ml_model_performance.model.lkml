@@ -13,3 +13,5 @@ persist_with: ga4ml_model_performance_default_datagroup
 explore: model_eval {}
 
 explore: performance_check {}
+
+explore: model_metadata {}
