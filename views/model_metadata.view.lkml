@@ -3,9 +3,9 @@ view: model_metadata {
     ;;
 
   dimension: last_retrain {
-    type: string
+    type: date
     datatype:  date
-    sql: CAST(${TABLE}.last_retrain as date) ;;
+    sql: CAST(${TABLE}.last_retrain AS DATE) ;;
   }
 
   dimension: model_name {
