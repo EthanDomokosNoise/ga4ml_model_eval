@@ -14,17 +14,17 @@ view: feature_importance {
   }
 
   dimension: importance_weight {
-    type: string
+    type: number
     sql: ${TABLE}.importance_weight ;;
   }
 
   dimension: importance_gain {
-    type: string
+    type: number
     sql: ${TABLE}.importance_gain ;;
   }
 
   dimension: importance_cover {
-    type: string
+    type: number
     sql: ${TABLE}.importance_cover ;;
   }
 
