@@ -15,3 +15,5 @@ explore: model_eval {}
 explore: performance_check {}
 
 explore: model_metadata {}
+
+explore: feature_importance {}
