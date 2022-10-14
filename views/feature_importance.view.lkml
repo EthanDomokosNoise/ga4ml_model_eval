@@ -5,7 +5,7 @@ view: feature_importance {
   dimension: timestamp {
     type: date
     datatype:  date
-    sql: CAST(${TABLE}.timestamp AS DATE) ;;
+    sql: MAX(CAST(${TABLE}.timestamp AS DATE)) ;;
   }
 
   dimension: feature {
